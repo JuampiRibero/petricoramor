@@ -3031,13 +3031,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #000;
-  background-color: #D99CD5;
-  border-color: #D99CD5;
+  background-color: #D9ADDD;
+  border-color: #D9ADDD;
 }
 .btn-primary:hover {
   color: #000;
-  background-color: #D9A7D0;
-  border-color: #D99CD5;
+  background-color: #F28FC3;
+  border-color: #F28FC3;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #000;
@@ -7838,7 +7838,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: #D99CD5 !important;
+  background-color: #F28FC3 !important;
 }
 
 .bg-dark {
@@ -11287,9 +11287,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
 body {
-  background-image: url("../assets/img/fondo7.png");
-  background-attachment: fixed;
+  background-image: url("../assets/img/fondo-web-petricor.jpg");
+  background-attachment: local;
   background-position: center;
   background-size: cover;
 }
@@ -11326,7 +11327,7 @@ p {
 }
 
 .section-heading {
-  text-transform: uppercase;
+  text-transform: none;
 }
 .section-heading .section-heading-upper {
   display: block;
@@ -11353,14 +11354,16 @@ p {
 }
 
 #mainNav {
-  background-color: #D99CD5;
+  border-top: 3px solid #F28FC3;
+  border-bottom: 3px solid #F28FC3;
+  background-color: none;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
   color: #e6a756;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.7);
+  color: #3D363F;
   font-weight: 800;
 }
 #mainNav .navbar-nav .nav-item.active .nav-link {
@@ -11395,7 +11398,10 @@ p {
 }
 
 .cta {
-  background-color: #F2DCEC;
+  padding: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #FFEFF9;
 }
 .cta .cta-inner {
   position: relative;
@@ -11414,7 +11420,7 @@ p {
 }
 
 .footer {
-  background-color: #D99CD5;
+  background-color: #F28FC3;
 }
 
 .intro {
@@ -11423,13 +11429,13 @@ p {
 @media (min-width: 992px) {
   .intro .intro-img {
     width: 75%;
-    height: 80vh;
+    height: 85vh;
     float: right;
   }
   .intro .intro-text {
     left: 0;
     width: 60%;
-    margin-top: 3rem;
+    margin-top: 10rem;
     position: absolute;
   }
   .intro .intro-text .intro-button {
@@ -11489,12 +11495,10 @@ p {
 }
 
 .nav-logo {
-  border-radius: 100px;
-  width: 175px;
-  height: 175px;
   margin: 20px;
   transition: transform 0.5s ease;
 }
+
 .nav-logo:hover {
   -webkit-transform: scale(1.20, 1.20);
   -o-transform: scale(1.20, 1.20);
