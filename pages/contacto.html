@@ -34,7 +34,7 @@
     <body>
         <!-- Inicio encabezado del sitio web -->
         <header>
-            <h1 class="row text-center text-faded d-none d-lg-block">
+            <h1 class="container text-center d-none d-lg-block" id="go-top">
                 <a class="navbar-brand" href="../index.html">
                     <img src="../assets/img/logo.svg" alt="Logo Petricor Amor" title="Logo Petricor Amor" class="nav-logo mb-4 mt-4" loading="lazy">
                 </a>
@@ -59,62 +59,41 @@
         <h2 class="page-section section-heading mb-4 text-center">
             <span class="section-heading-lower">¿Cómo Comprar?</span>
         </h2>
-        <section class="page-section cta">
+        <section class="page-section">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner bg-faded text-center rounded">
-                            <h2 class="section-heading mb-5">
-                                <span class="section-heading-upper">¡Acercate!</span>
-                                <span class="section-heading-lower">Estamos Abierto</span>
-                            </h2>
-                            <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                                <li class="list-unstyled-item list-hours-item d-flex">
-                                    Lunes
-                                    <span class="ms-auto">10:00 AM a 7:00 PM</span>
-                                </li>
-                                <li class="list-unstyled-item list-hours-item d-flex">
-                                    Martes
-                                    <span class="ms-auto">10:00 AM a 7:00 PM</span>
-                                </li>
-                                <li class="list-unstyled-item list-hours-item d-flex">
-                                    Miercoles
-                                    <span class="ms-auto">10:00 AM a 7:00 PM</span>
-                                </li>
-                                <li class="list-unstyled-item list-hours-item d-flex">
-                                    Jueves
-                                    <span class="ms-auto">10:00 AM a 7:00 PM</span>
-                                </li>
-                                <li class="list-unstyled-item list-hours-item d-flex">
-                                    Viernes
-                                    <span class="ms-auto">10:00 AM a 7:00 PM</span>
-                                </li>
-                                <li class="list-unstyled-item list-hours-item d-flex">
-                                    Sábado
-                                    <span class="ms-auto">Cerrado</span>
-                                </li>
-                                <li class="list-unstyled-item list-hours-item d-flex">
-                                    Domingo
-                                    <span class="ms-auto">Cerrado</span>
-                                </li>
-                            </ul>
-                            <p class="address mb-5">
-                            </p>
-                            <p class="address">
-                                <em>
-                                    <strong>¡Contactame!</strong>
-                                    <br>
-                                    +598 095 740 563
-                                    <a href="https://api.whatsapp.com/send?phone=+59891944923&text=Hola!%20Hacenos%20tu%20consulta%20y%20a%20la%20brevedad%20te%20contactamos!" target="_blank">
-                                        <i class="fab fa-whatsapp text-success"></i>
-                                    </a>
-                                </em>
-                            </p>
-                        </div>
+                <div class="d-flex justify-content-lg-center row text-center">
+                    <div class="cta col-md-3">
+                        <h4 class="titulo my-3">1. Elegí</h4>
+                        <p class="textos">Entra a WhatsApp para ver el catálogo o hacerme tu consulta.</p>
+                    </div>
+                    <div class="cta col-md-3">
+                        <h4 class="titulo my-3">2. Pago</h4>
+                        <p class="textos">Si haces un pedido te paso un link para pagar pago. Si es solo asesoramiento, no tiene costo pero podés “Invitarme un Cafecito”.</p>
+                    </div>
+                    <div class="cta col-md-3">
+                        <h4 class="titulo my-3">3. Entrega</h4>
+                        <p class="textos">Cuando tu pedido este armado, coordinamos y te lo enviamos a tu domicilio.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="intro-button mx-auto text-center page-section"><a class="btn btn-primary-wa btn-xl" href="https://api.whatsapp.com/send?phone=+598095740563&text=¡Hola!%20Hacenos%20tu%20consulta%20y%20a%20la%20brevedad%20te%20contactamos!" target="_blank">Ir al Catálogo de WhatsApp</a></div>
+        </section>
+        <h2 class="page-section section-heading mb-4 text-center">
+            <span class="section-heading-lower">Horarios de Atención</span>
+        </h2>
+        <section class="page-section">
+            <div class="container">
+                <div class="col-xl-9 mx-auto">
+                    <div class="text-center">
+                        <p class="textos"><b>Lun a Vie: de 10 a 18hs</b> voy a estar respondiendo tus mensajes.</p>
+                        <p class="textos">Podés escribirme cuando quieras y prometo responderte lo antes que pueda dentro del horario de atención.</p>
                     </div>
                 </div>
             </div>
         </section>
+        <img class="page-section product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="../assets/img/contacto-sahumos.jpg" alt="Sahúmos" title="Sahúmos" loading="lazy">
+        <div class="intro-button mx-auto text-center page-section"><a class="btn btn-primary-wa btn-xl" href="https://api.whatsapp.com/send?phone=+598095740563&text=¡Hola!%20Hacenos%20tu%20consulta%20y%20a%20la%20brevedad%20te%20contactamos!" target="_blank">Realizá una Consulta</a></div>
         <!-- Inicio de pie de página -->
         <footer class="text-center text-lg-start bg-light color-text">
             <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
@@ -132,7 +111,7 @@
                         <h6 class="text-uppercase fw-bold mb-4">Información</h6>
                         <p><i class="fas fa-phone me-3"></i> +598 095 740 563</p>
                         <p><i class="fas fa-envelope me-3"></i> petricoramor.uy@gmail.com</p>
-                        <p><i class="fas fa-home me-3"></i> Barros Blancos, Canelones, Uruguay</p>
+                        <p><i class="fas fa-home me-3"></i> Canelones, Uruguay</p>
                         <p><i class="fas fa-truck me-3"></i></i> Envíos a todo el país</p>
                     </div>
                     <div class="col-md-4 col-lg-2 col-xl-4 mx-auto mb-3 text-center">
@@ -148,11 +127,12 @@
             <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
                 2021 &#169; Petricor Amor. Todos los derechos reservados.
             </div>
-            <a href="https://api.whatsapp.com/send?phone=+598095740563&text=Hola!%20Hacenos%20tu%20consulta%20y%20a%20la%20brevedad%20te%20contactamos!" class="float" target="_blank">
-                <i class="fab fa-whatsapp my-float"></i>
-            </a>
         </footer>
         <!-- Fin de pie de página -->
+        <!-- Botón ir arriba -->
+        <a class="go-top-btn rounded" href="#go-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
         <!-- WOW.js -->
         <script src="js/wow.min.js"></script>
         <script>
